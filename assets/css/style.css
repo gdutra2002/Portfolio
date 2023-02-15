@@ -40,3 +40,98 @@ section {
   bottom: 0;
   right: 0;
 }
+
+.hero{
+      height:100vh;
+      width: 100%;
+      background-image: url("https://twinfinite.net/wp-content/uploads/2021/03/Skater-XL-Embarcadero-Plaza.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+
+.navbar {
+      width: 85%;
+      margin: auto;
+      padding:35px 0;
+      display: flex;
+      /* align-items: center; */
+      justify-content: space-between;
+      height:300px;
+}
+  
+.navbar ul li{
+      display: inline-block;
+      margin: 0 20px;
+      font-size: 20px; 
+      margin-top: 5px;
+      border-radius: 10px;
+      padding: 5px;
+}
+  
+.navbar ul li a {
+      color: black;
+      display: flex;
+      text-transform: uppercase;
+      font-family: 'Ubuntu Mono', monospace;
+      text-align: center;
+}
+  
+.navbar ul li:hover{
+      background-color: var(--light-pink);
+      width: 120px;
+      transition: linear, 1.5s;
+}
+
+.title{
+      width: 120px;
+      cursor:pointer;
+}
+
+.project-section, {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      height: 400px;
+      align-items: center;
+      width: fit-content;
+}
+  
+.project-section button, {
+      border-radius: 20px;
+      padding: 20px;
+      border-style: none;
+      background-color: var(--grey);
+      color: black;
+  
+      box-shadow: 5px 5px 15px;
+      font-size: 30pt;
+}
+  
+.project-section h1, {
+      background-color: #646c8f73;
+      border-radius: 20px;
+      text-align: center;
+      width: 400px;
+      padding: 20px;
+}
+
+
+.sections {
+      display: flex;
+}
+  
+  @media screen and (max-width: 992px){
+
+  }
+  
+  @media screen and (max-width: 768px){
+
+  }
+  
+  @media screen and (max-width: 600px){
+
+  }
+  
+  @media screen and (max-width: 400px){
+
+  }
