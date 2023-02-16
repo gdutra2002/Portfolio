@@ -11,6 +11,7 @@
       margin:0;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /* box-sizing:border-box; */
+      box-sizing: border-box;
 }
   
 a {
@@ -21,8 +22,29 @@ body {
       padding:0;
       margin:0;
       background-image: linear-gradient(#651f30, #f0c9aa);
+      font-family: Arial;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: flex-start;
 }
-  
+
+nav {
+      display: flex;
+      /* Align the child elements to the right side of the parent */
+      justify-content: flex-end;
+      background-color: none;
+    }
+   
+footer {
+      padding: 20px;
+      text-align: center;
+      background: #13293d;
+      color: #fff;
+      margin-top: auto;
+    }
+    
+
 .hero{
       height:100vh;
       width: 100%;
@@ -113,6 +135,14 @@ h3 {
 .absolute-container {
       /* Sets parent element to relative */
       position: relative;
+      left: 50px;
+      display: flex;
+      /* Align the child elements to the top of the parent */
+      align-items: flex-start;
+      height: 250px;
+      width: 90%;
+      margin: 1% auto;
+      /* border: none; */
     }
 
 /* Relative positioning */
@@ -176,10 +206,13 @@ h3 {
   }
   
   @media screen and (max-width: 768px){
-
-  }
+      nav,
+      .absolute-container {
+        flex-direction: column;
+      }
+}
   
   @media screen and (max-width: 576px){
 
-  }
+}
  
