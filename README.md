@@ -6,7 +6,7 @@ This is my professional full stack portfolio. It will be continualy updated as I
 
 ## Installation
 
-Click thru the links on your browser to view my projects. Inspect the source code to see how they run.
+https://gdutra2002.github.io/Portfolio/
 
 ## Usage
 
@@ -32,8 +32,8 @@ Badges aren't necessary, but they demonstrate street cred. Badges let other deve
 
 ## Features
 
-If your project has a lot of features, list them here.
+Click thru the page and find out!
 
 ## How to Contribute
 
-Contact me my email for correspondance. 
+Contact me at LinkedIn for correspondance. 
