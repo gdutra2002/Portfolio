@@ -1,8 +1,14 @@
 
 :root {
       --grey: #8F797E;
+      --platinum: #646c8f73;
       --light-green: #6bd556;
       --purple: #646C8F;
+      --blue:  #07208b;
+      --maroon: #651f30;
+      --peach: #f0c9aa;
+      --navy:  #13293d;
+      --black:  black;
     }
   
 
@@ -21,7 +27,7 @@ a {
 body {
       padding:0;
       margin:0;
-      background-image: linear-gradient(#651f30, #f0c9aa);
+      background-image: linear-gradient(var(--maroon), var(--peach));
       font-family: Arial;
       display: flex;
       flex-direction: column;
@@ -37,13 +43,37 @@ nav {
     }
    
 footer {
-      padding: 20px;
+      padding: 200px;
       text-align: center;
-      background: #13293d;
-      color: #fff;
+      display: flex;
+      background: none;
+      /* color: var(--purple); */
       margin-top: auto;
     }
-    
+
+.footer ul li{
+      display: inline-block;
+      margin: 0 20px;
+      font-size: 40px; 
+      margin-top: 5px;
+      border-radius: 10px;
+      padding: 5px;
+}
+  
+.footer ul li a {
+      color: black;
+      display: flex;
+      text-transform: uppercase;
+      font-family: 'Ubuntu Mono', monospace;
+      text-align: center;
+}
+
+.footer ul li:hover{
+      background-color: var(--light-green);
+      width: 120px;
+      transition: linear, 1.5s;    
+    }
+
 
 .hero{
       height:100vh;
@@ -52,6 +82,14 @@ footer {
       background-size: cover;
       background-position: center;
 }
+
+.container img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      -webkit-mask-image: url("/assets/transk8.jfif");
+      mask-image: url("/assets/transk8.jfif");
+    }
 
 .navbar {
       width: 85%;
@@ -81,7 +119,7 @@ footer {
 }
   
 .navbar ul li:hover{
-      background-color: var(--light-green);
+      background-color: var(--purple);
       width: 120px;
       transition: linear, 1.5s;
 }
@@ -95,7 +133,7 @@ footer {
 header {
       width: 100%;
       border: 10px solid darkblue;
-      background-color: lightblue;
+      background-color: var(--grey);
 }
 
 section {
@@ -190,7 +228,7 @@ h3 {
 }
   
 .project-section h1 {
-      background-color: #646c8f73;
+      background-color: var(--platinum);
       border-radius: 20px;
       text-align: center;
       width: 400px;
