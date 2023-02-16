@@ -10,7 +10,7 @@ https://gdutra2002.github.io/Portfolio/
 
 ## Usage
 
-![Screenshot](assets/images/screenshot.png)
+![Screenshot](assets/screenshot.png)
 
 ## Credits
 
