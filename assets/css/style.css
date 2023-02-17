@@ -139,6 +139,7 @@ header {
 section {
       height: 400px;
       width: 80%;
+      display: flex;
       margin: 30px auto;
       border: 10px solid black;
 }
@@ -167,6 +168,7 @@ h3 {
 .container {
       width: 600px;
       height: 600px;
+      display: flex;
       margin: 20px auto;
       border: none;
     }
@@ -251,6 +253,9 @@ h3 {
 }
   
   @media screen and (max-width: 576px){
-
+      nav,
+      .absolute-container {
+        flex-direction: column;
+      }
 }
  
